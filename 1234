@@ -1,0 +1,11 @@
+Hi I Have An App Called Reader Its A batch File So Heres Da Script
+@echo off
+title Reader
+Color a
+echo Hello User, Please To Read A TXT If In Some Reason You Cant Try Out This Program
+echo Drag The File Or Put The Path And The File Name With The Extension
+set /p input="Here Type In:"
+type %input%>nul
+if %errorlevel% == 0 echo Done Successfully LOL
+if %errorlevel% !==! 0 Echo Done Not Successfully XD (Maybe You Put The Wrong Path Or File Name Or Forgot The Extension)
+pause>nul
